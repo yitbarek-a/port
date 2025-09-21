@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dr. Yitbarek Alemu — Preventive Medicine & Research</title>
+  <meta name="description" content="Dr. Yitbarek Alemu — General Practitioner, Longevity & Lifestyle Medicine, Preventive Neurology & AI in Healthcare." />
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="bg-sky-50 text-gray-900 antialiased">
+
+  <!-- NAV -->
+  <header class="bg-white/85 backdrop-blur sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-sky-600 to-teal-400 flex items-center justify-center text-white font-semibold">YA</div>
+        <div>
+          <div class="font-semibold">Dr. Yitbarek Alemu, MD</div>
+          <div class="text-xs text-gray-500">General Practitioner • Lifestyle & Preventive Medicine</div>
+        </div>
+      </div>
+
+      <nav class="hidden md:flex gap-6 text-sm items-center">
+        <a href="#about" class="hover:text-sky-700">About</a>
+        <a href="#projects" class="hover:text-sky-700">Projects</a>
+        <a href="#research" class="hover:text-sky-700">Research</a>
+        <a href="#youtube" class="hover:text-sky-700">Intro</a>
+        <a href="#contact" class="px-3 py-1 rounded-full border border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white transition">Contact</a>
+      </nav>
+
+      <div class="md:hidden">
+        <button id="mobile-menu-btn" aria-label="Open menu" aria-expanded="false" class="p-2 rounded border">☰</button>
+      </div>
+    </div>
+
+    <div id="mobile-menu" class="md:hidden hidden border-t bg-white/95">
+      <div class="px-4 py-3 flex flex-col gap-2">
+        <a href="#about" class="py-2">About</a>
+        <a href="#projects" class="py-2">Projects</a>
+        <a href="#research" class="py-2">Research</a>
+        <a href="#youtube" class="py-2">Intro</a>
+        <a href="#contact" class="py-2 font-medium">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero relative overflow-hidden bg-gradient-to-r from-sky-600 via-sky-500 to-teal-400 text-white">
+    <div class="max-w-6xl mx-auto px-4 py-20 relative z-10">
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+
+        <!-- Text column -->
+        <div class="space-y-6 reveal" data-reveal-delay="0">
+          <h1 class="text-4xl md:text-5xl font-bold leading-tight">Preventive Medicine · Longevity · Brain Health</h1>
+          <p class="text-lg max-w-xl opacity-90">Founder of the Longevity & Lifestyle Medicine Program at Saja General Hospital. I design preventive pathways, patient education and evidence-based interventions that combine lifestyle medicine with applied AI.</p>
+
+          <div class="flex gap-3">
+            <a href="docs/CV-yitbarek-MD.pdf" class="px-5 py-3 rounded-lg bg-white text-sky-700 font-medium shadow hover:bg-gray-100 transition">Download CV</a>
+            <a href="#contact" class="px-5 py-3 rounded-lg border border-white font-medium hover:bg-white hover:text-sky-700 transition">Get in touch</a>
+          </div>
+
+          <div class="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div class="text-center">
+              <div class="text-xl font-semibold">11,000+</div>
+              <div class="text-sm opacity-90">Patients</div>
+            </div>
+            <div class="text-center">
+              <div class="text-xl font-semibold">LLMP</div>
+              <div class="text-sm opacity-90">Founded</div>
+            </div>
+            <div class="text-center">
+              <div class="text-xl font-semibold">Research</div>
+              <div class="text-sm opacity-90">AI & Protocols</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Profile card column -->
+        <div class="reveal" data-reveal-delay="120">
+          <div class="bg-white rounded-2xl p-6 shadow-xl">
+            <div class="w-40 h-40 rounded-full overflow-hidden border-4 border-white mx-auto -mt-20 relative">
+              <img src="assets/images/photo.jpg" alt="Dr. Yitbarek Alemu" class="w-full h-full object-cover profile-img transition-transform duration-300" />
+            </div>
+
+            <div class="text-center mt-4">
+              <div class="font-semibold text-lg">Dr. Yitbarek Alemu, MD</div>
+              <div class="text-sm text-gray-600">General Practitioner, Saja General Hospital</div>
+              <div class="mt-3 flex justify-center gap-3">
+                <a class="text-sky-600 text-sm" href="https://linkedin.com">LinkedIn</a>
+                <a class="text-sky-600 text-sm" href="https://github.com">GitHub</a>
+              </div>
+            </div>
+
+            <div class="mt-6 text-sm text-gray-700">
+              <p><strong>Specialties:</strong> Lifestyle & Preventive Medicine, Preventive Neurology, Clinical Research, AI in Healthcare</p>
+            </div>
+
+            <div class="mt-4">
+              <a href="#projects" class="btn-primary w-full block text-center px-6 py-3 rounded-lg bg-sky-600 text-white font-medium">View projects</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="hero-overlay pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-black/10 to-transparent"></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="max-w-6xl mx-auto px-4 py-12 reveal" data-reveal-delay="80">
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="p-6 bg-white rounded-xl shadow">
+        <h4 class="font-semibold text-sky-700">Clinical Care</h4>
+        <p class="text-sm text-gray-600 mt-2">OPD, ICU, NICU, OBGYN, Pediatrics & multidisciplinary coordination.</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow">
+        <h4 class="font-semibold text-sky-700">Preventive Programs</h4>
+        <p class="text-sm text-gray-600 mt-2">Hospital-based Longevity & Lifestyle Medicine Program (LLMP) — program design & delivery.</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow">
+        <h4 class="font-semibold text-sky-700">Research & AI</h4>
+        <p class="text-sm text-gray-600 mt-2">Protocol development, scoping reviews, AI prototypes & data structuring.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="bg-sky-50 py-10">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex items-center justify-between mb-6">
+        <h3 class="text-2xl font-semibold text-sky-700">Projects & Work</h3>
+        <p class="text-sm text-gray-600">Selected hospital programs, research and demos</p>
+      </div>
+
+      <div id="projects-grid" class="grid md:grid-cols-3 gap-6">
+        <!-- project cards dynamically loaded from data/projects.json -->
+      </div>
+    </div>
+  </section>
+
+  <!-- YOUTUBE INTRO -->
+  <section id="youtube" class="py-16 bg-white">
+    <div class="max-w-4xl mx-auto px-4 text-center reveal" data-reveal-delay="100">
+      <h3 class="text-2xl font-semibold text-sky-700">Video Introduction</h3>
+      <p class="mt-2 text-gray-600">Watch my short introduction on preventive medicine and research.</p>
+
+      <div class="mt-6">
+        <div class="yt-placeholder rounded-xl overflow-hidden shadow-lg mx-auto max-w-3xl mt-6" data-video-id=0g8qErrwj9fbEd3D role="button" tabindex="0" aria-label="Watch intro video">
+          <img src="https://img.youtube.com/vi/0g8qErrwj9fbEd3D/hqdefault.jpg" alt="Video thumbnail" class="w-full h-full object-cover block" />
+          <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+            <div class="play-overlay pointer-events-auto">
+              <svg width="64" height="64" viewBox="0 0 24 24" fill="none" aria-hidden>
+                <path d="M8 5v14l11-7L8 5z" fill="#fff" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESEARCH -->
+  <section id="research" class="max-w-6xl mx-auto px-4 py-12 reveal" data-reveal-delay="120">
+    <div class="grid md:grid-cols-2 gap-8">
+      <div>
+        <h3 class="text-2xl font-semibold text-sky-700">Research & Publications</h3>
+        <ul class="mt-4 space-y-4 text-gray-700">
+          <li><strong>Exploring AI Companion Use in Adults with Neurological Diseases</strong> — Scoping review (co-author). Protocol registered on PROSPERO.</li>
+          <li><strong>Effect of Proper BP Measurement on Hypertension Diagnosis</strong> — Lead author; presented 2025.</li>
+          <li>Preventive Neurology Protocol (Isaac Health) — contributor to brain health curriculum & workbook.</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-2xl font-semibold text-sky-700">Education & Timeline</h3>
+        <div class="mt-6 space-y-6">
+          <div class="border-l-4 border-sky-600 pl-4">
+            <div class="text-sm text-gray-500">2024</div>
+            <h4 class="font-medium">MD — Wachemo University</h4>
+            <p class="text-sm text-gray-600">Class of 2024, awarded certificate of graduation and employability skills</p>
+          </div>
+
+          <div class="border-l-4 border-sky-600 pl-4">
+            <div class="text-sm text-gray-500">2025</div>
+            <h4 class="font-medium">Isaac Health & Scoping review</h4>
+            <p class="text-sm text-gray-600">Preventive neurology protocol & brain health materials</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="bg-white py-12 reveal" data-reveal-delay="140">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8">
+      <div>
+        <h3 class="text-2xl font-semibold text-sky-700">Work with me</h3>
+        <p class="mt-2 text-gray-700">I offer clinical consulting, program design, research support and patient education development.</p>
+      </div>
+
+      <div>
+        <form class="space-y-4" action="https://formspree.io/f/your_form_id" method="POST">
+          <input name="name" required class="w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-sky-500" placeholder="Full name" />
+          <input name="email" type="email" required class="w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-sky-500" placeholder="Email address" />
+          <textarea name="message" required rows="4" class="w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-sky-500" placeholder="How can I help?"></textarea>
+          <div class="flex gap-3">
+            <button class="w-full px-6 py-3 rounded-lg bg-sky-600 text-white font-medium" type="submit">Send message</button>
+            <a class="w-full px-6 py-3 rounded-lg border border-gray-300 text-center" href="mailto:youremail@example.com">Email me</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-sky-700 text-white py-6">
+    <div class="max-w-6xl mx-auto px-4 text-center text-sm">
+      © 2025 Dr. Yitbarek Alemu — Saja General Hospital
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>lucide.createIcons();</script>
+</body>
+</html>
