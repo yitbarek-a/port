@@ -1,0 +1,26 @@
+:root{
+  --accent: #0ea5e9; /* sky-500 */
+}
+
+/* reveal animations */
+.reveal{opacity:0; transform:translateY(22px); transition:opacity 600ms cubic-bezier(.2,.9,.2,1), transform 600ms cubic-bezier(.2,.9,.2,1);}
+.reveal.active{opacity:1; transform:none;}
+.reveal[data-reveal-delay]{transition-delay: var(--delay, 0ms);}
+
+/* profile image smooth transform */
+.profile-img{transition:transform 350ms cubic-bezier(.2,.9,.2,1); will-change:transform;}
+
+/* youtube placeholder */
+.yt-placeholder{position:relative;background:#000;cursor:pointer;display:block;border-radius:0.75rem;overflow:hidden}
+.yt-placeholder img{display:block;width:100%;height:100%;object-fit:cover}
+.play-overlay{background:rgba(255,255,255,0.12);backdrop-filter:blur(2px);width:84px;height:84px;border-radius:9999px;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(2,6,23,0.25)}
+.yt-placeholder:focus{outline:3px solid rgba(14,165,233,0.32)}
+
+/* button utility */
+.btn-primary{background:var(--accent);color:white}
+
+/* accessibility focus */
+button:focus, a:focus{outline-offset:3px}
+
+/* iframe fallback */
+.yt-placeholder iframe{position:relative;width:100%;height:100%;border:0}
